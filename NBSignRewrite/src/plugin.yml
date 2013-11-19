@@ -1,0 +1,10 @@
+name: NB Vote Competition
+main: Teken.Signrewrite.main
+version: 1.0
+commands:
+    rws:
+        description: Lets you rewrite signs
+        usage: /rws <arguments>
+    rewritesign:
+        description: Lets you rewrite signs
+        usage: /rewritesign <arguments>
